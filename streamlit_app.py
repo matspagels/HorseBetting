@@ -15,11 +15,6 @@ from csv import DictWriter
 header = st.container()
 main_page = st.container()
 
-with pageheader:
-    coli, cold, colf = st.columns(3)
-    logo_image = Image.open('logo.png')
-    cold.image(logo_image)
-   
 
 def main():
 	
