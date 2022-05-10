@@ -39,15 +39,15 @@ def view_all_users():
 
 
 def main():
-	"""Simple Login App"""
+	"""Welcome to Nova´s Horseracing Track!"""
 
-	st.title("Simple Login App")
+	st.title("Welcome to Nova´s Horseracing Track!")
 
 	menu = ["Home","Login","SignUp"]
 	choice = st.sidebar.selectbox("Menu",menu)
 
-	if choice == "Home":
-		st.subheader("Home")
+	if choice == "Welcome":
+		st.subheader("Welcome")
 
 	elif choice == "Login":
 		st.subheader("Login Section")
