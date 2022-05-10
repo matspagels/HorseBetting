@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-pip install streamlit-option-menu
+from streamlit_option_menu import option_menu
 
 
 # Security
