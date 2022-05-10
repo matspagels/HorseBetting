@@ -41,7 +41,7 @@ def view_all_users():
 def main():
 	"""Welcome to Nova´s Horseracing Track!"""
 
-	st.title("Welcome to Nova´s Horseracing Track!")
+	st.title("Welcome to Nova´s own private Horseracing Track!")
 
 	menu = ["Welcome","Login","SignUp"]
 	choice = st.sidebar.selectbox("Menu",menu)
@@ -49,7 +49,7 @@ def main():
 	if choice == "Welcome":
 		st.subheader("Glad to have you here!")
 		st.write("After opening your own betting account, you will be able to take your money and bet it on our wide array of race horses and jockeys - ready?")
-
+		st.write("You can use our menu on the left to navigate. If you haven´t done any betting so far, we suggest you go and check out our 'Tutorial' Section before you proceed to the race-track!")
 	elif choice == "Login":
 		st.subheader("Login Section")
 
