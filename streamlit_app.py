@@ -43,11 +43,11 @@ def main():
 
 	st.title("Welcome to Nova´s Horseracing Track!")
 
-	menu = ["Home","Login","SignUp"]
+	menu = ["Welcome","Login","SignUp"]
 	choice = st.sidebar.selectbox("Menu",menu)
 
 	if choice == "Welcome":
-		st.subheader("Welcome")
+		st.subheader("What do we offer here?")
 
 	elif choice == "Login":
 		st.subheader("Login Section")
