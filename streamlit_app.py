@@ -4,7 +4,8 @@ from PIL import Image
 
 def main():
 
-image = Image.open('logo.png')
+with st.container():
+    st.image(Image.open('logo.png'))
    
 	
 	"""Welcome to Nova´s Horseracing Track!"""
