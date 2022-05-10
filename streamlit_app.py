@@ -47,7 +47,8 @@ def main():
 	choice = st.sidebar.selectbox("Menu",menu)
 
 	if choice == "Welcome":
-		st.subheader("What do we offer here?")
+		st.subheader("Glad to have you here!")
+		st.write("After opening your own betting account, you will be able to take your money and bet it on our wide array of race horses and jockeys - ready?")
 
 	elif choice == "Login":
 		st.subheader("Login Section")
