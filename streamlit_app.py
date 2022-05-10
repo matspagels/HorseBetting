@@ -1,16 +1,5 @@
 import streamlit as st
 import pandas as pd
-from functions import *
-from PIL import Image
-import matplotlib.pyplot as plt
-import plotly.express as px
-import plotly.graph_objects as go
-import datetime
-import requests
-import os
-import time
-import numpy as np 
-from csv import DictWriter
 
 
 def main():
