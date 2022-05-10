@@ -12,9 +12,6 @@ import time
 import numpy as np 
 from csv import DictWriter
 
-header = st.container()
-main_page = st.container()
-
 
 def main():
 	
