@@ -4,9 +4,7 @@ from PIL import Image
 
 def main():
 
-	
-with pageheader:
-    image = Image.open('logo.png')
+image = Image.open('logo.png')
    
 	
 	"""Welcome to Nova´s Horseracing Track!"""
