@@ -8,7 +8,7 @@ def main():
 	st.title("Welcome to Nova´s own private Horseracing Track!")
 
 	menu = ["Welcome", "Tutorial", "Login", "SignUp"]
-	choice = st.sidebar.button("Menu",menu)
+	choice = st.sidebar.multiselect("Menu",menu)
 
 	if choice == "Welcome":
 		st.subheader("Glad to have you here!")
