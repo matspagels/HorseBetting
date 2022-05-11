@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
 	
-def main():
 	
 	"""Welcome to Nova´s Horseracing Track!"""
 	
@@ -61,5 +60,3 @@ def main():
 
 
 
-if __name__ == '__main__':
-	main()
