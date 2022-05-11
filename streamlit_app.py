@@ -1,12 +1,7 @@
 import streamlit as st
 import pandas as pd
-from PIL import Image
 
 def main():
-
-with st.container():
-    st.image(Image.open('logo.png'))
-   
 	
 	"""Welcome to Nova´s Horseracing Track!"""
 
