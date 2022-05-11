@@ -1,26 +1,5 @@
 import streamlit as st
 import pandas as pd
-from PIL import Image
-
-pageheader = st.container()
-main_page = st.container()
-
-df = pd.read_csv("user base.csv", sep=";")
-
-if 1 in list(df["logged_in"]):
-    logged_in = True
-    logged_in_user = df.index[df["logged_in"]==1].tolist()[0]
-
-if 1 not in list(df["logged_in"]):
-    logged_in = False
-    logged_in_user = -1
-
-with pageheader:
-    coli, cold, colf = st.columns(3)
-    logo_image = Image.open('logo.png')
-    cold.image(logo_image)
-    page = st.selectbox("Choose your page", ["Login", "Betting", "Ranking", "Analytics"])
-
 	
 def main():
 	
