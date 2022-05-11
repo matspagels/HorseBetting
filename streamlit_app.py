@@ -4,7 +4,7 @@ import pandas as pd
 def main():
 	
 	"""Welcome to Nova´s Horseracing Track!"""
-
+	
 	st.title("Welcome to Nova´s own private Horseracing Track!")
 
 	menu = ["Welcome", "Tutorial", "Login", "SignUp"]
